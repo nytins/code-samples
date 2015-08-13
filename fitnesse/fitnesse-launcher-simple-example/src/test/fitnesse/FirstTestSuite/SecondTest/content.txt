@@ -1,0 +1,8 @@
+!contents -R2 -g -p -f -h
+
+|Import       |
+|nyts.fixtures|
+
+|Addition         |
+|first|second|sum?|
+|20   |4     |24  |
