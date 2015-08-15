@@ -44,7 +44,6 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.4.0</version>
 				<configuration>
-					<mainClass>com.nytins.spark_cassandra.CreateUsers</mainClass>
 					<cleanupDaemonThreads>false</cleanupDaemonThreads>
 					<classpathScope>compile</classpathScope>
 				</configuration>
