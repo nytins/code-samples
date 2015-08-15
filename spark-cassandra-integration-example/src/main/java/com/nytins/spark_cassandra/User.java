@@ -17,6 +17,11 @@ public class User implements Serializable {
 		this.email = email;
 	}
 
+	@Override
+	public String toString() {
+		return String.format("User [firstName=%s, lastName=%s, city=%s, email=%s]", firstName, lastName, city, email);
+	}
+
 	public String getFirstName() {
 		return firstName;
 	}
