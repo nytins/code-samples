@@ -7,7 +7,7 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
-import com.datastax.spark.connector.japi.CassandraJavaUtil;
+import static com.datastax.spark.connector.japi.CassandraJavaUtil.*;
 
 public class CreateUsers {
 
@@ -18,6 +18,7 @@ public class CreateUsers {
 			.setMaster("local")
 			.setAppName("CreateUsers")
 			.set("spark.cassandra.connection.host", "127.0.0.1");
+		
 
 		try(JavaSparkContext context = new JavaSparkContext(conf)) {
 
@@ -26,10 +27,9 @@ public class CreateUsers {
 
 			JavaRDD<User> userRDD = context.parallelize(users);
 
-			CassandraJavaUtil.javaFunctions(userRDD)
-				.writerBuilder("sample_keyspace", "users", CassandraJavaUtil.mapToRow(User.class))
+			javaFunctions(userRDD)
+				.writerBuilder("sample_keyspace", "users", mapToRow(User.class))
 				.saveToCassandra();
 		}
 	}
-
 }
