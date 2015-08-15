@@ -16,3 +16,8 @@ Run the below command to delete the newly created keyspace and table:
 ```
 $CASSANDRA_HOME/bin/cqlsh -f ./src/main/script/delete_table.cql
 ```
+
+## Submitting job to `Spark` cluster
+```
+$SPARK_HOME/bin/spark-submit --class com.nytins.spark_cassandra.CreateUsers --master <master_url> target/spark-cassandra-integration-example-0.0.1-SNAPSHOT.jar John Smith john@smith.com Miami
+```
