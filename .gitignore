@@ -1,2 +1,10 @@
 
 spark-cassandra-integration-example/dependency-reduced-pom.xml
+
+web/simple-webapp/.classpath
+
+web/simple-webapp/.project
+
+*.prefs
+
+web/simple-webapp/target/
