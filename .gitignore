@@ -8,3 +8,9 @@ web/simple-webapp/.project
 *.prefs
 
 web/simple-webapp/target/
+
+spark/spark-samples/target/
+
+spark/spark-samples/.classpath
+
+spark/spark-samples/.project
