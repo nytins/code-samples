@@ -14,3 +14,9 @@ spark/spark-samples/target/
 spark/spark-samples/.classpath
 
 spark/spark-samples/.project
+
+spring-rest/spring-rest-example/.classpath
+
+spring-rest/spring-rest-example/.project
+
+spring-rest/spring-rest-example/target/
