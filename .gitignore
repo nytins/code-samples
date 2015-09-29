@@ -20,3 +20,11 @@ spring-rest/spring-rest-example/.classpath
 spring-rest/spring-rest-example/.project
 
 spring-rest/spring-rest-example/target/
+
+spring-rest/Spring3MVC/.classpath
+
+spring-rest/Spring3MVC/target/
+
+spring-rest/Spring3MVC/.settings/
+
+spring-rest/Spring3MVC/.project
