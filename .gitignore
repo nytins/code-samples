@@ -1,30 +1,8 @@
-
 spark-cassandra-integration-example/dependency-reduced-pom.xml
 
-web/simple-webapp/.classpath
+**/.classpath
+**/.project
+**/.settings
+**/target
 
-web/simple-webapp/.project
-
-*.prefs
-
-web/simple-webapp/target/
-
-spark/spark-samples/target/
-
-spark/spark-samples/.classpath
-
-spark/spark-samples/.project
-
-spring-rest/spring-rest-example/.classpath
-
-spring-rest/spring-rest-example/.project
-
-spring-rest/spring-rest-example/target/
-
-spring-rest/Spring3MVC/.classpath
-
-spring-rest/Spring3MVC/target/
-
-spring-rest/Spring3MVC/.settings/
-
-spring-rest/Spring3MVC/.project
+jsf-spring-portlet
