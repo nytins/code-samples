@@ -17,8 +17,12 @@ import com.nytins.spring.mvc.service.UserService;
 @RequestMapping("/users")
 public class UserController {
 	
-	@Inject
 	private UserService userService;
+	
+	@Inject
+	public UserController(UserService userService) {
+		this.userService = userService;
+	}
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String showAllUsers(Model model) {
