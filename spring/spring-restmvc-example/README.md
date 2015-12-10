@@ -16,7 +16,7 @@ mvn tomcat7:run
 ###Step 3: Verify its running
 Open browser
 ```
-http://localhost:8080/spring-rest-example/users
+http://localhost:7070/spring-rest-example/users
 ```
 You should see JSON representation of 2 sample users.
 
