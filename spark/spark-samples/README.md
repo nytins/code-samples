@@ -1,4 +1,4 @@
-#Spark Samples
+# Spark Samples
 
 ## To run HelloSpark
 Step 1
